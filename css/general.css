@@ -1,0 +1,419 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Raleway:wght@400;500;700&display=swap");
+
+* {
+    overflow: auto;
+    border: none;
+    outline: none;
+    margin: 0px; 
+}
+
+header {
+    width: 85%;
+    margin: auto;
+    
+    
+}
+
+header h1 {
+    /* margin-left: 5%; */
+    margin-top: 1.5%;
+    display:inline-block;
+    width:"50%";
+    color: rgb(149, 120, 112);
+    font-family:sans-serif;
+    font-weight: bold;
+    font-family: "Oswald" ;
+    padding-bottom: 10px;
+    
+    
+    
+}
+
+nav {
+    list-style: none;
+    /* margin-right: 5%; */
+    margin-top: 1.5%;
+    
+    float: right;    
+    font-weight: bold;
+    font-family: "Oswald";
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+nav>li {
+    display: inline-block;
+    padding:10px;
+}
+
+.big-bg {
+    height:70vh;
+    /* width:100%; */
+    background-image: url(../images/banner-bg.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.big-bg span {
+    color:rgb(144, 117, 107);
+}
+
+section h1  {
+    /* margin-left: 5%; */
+    padding-top: 20%;
+    color:rgb(192, 163, 127);
+    font-size:50px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-family: "Oswald";
+}
+
+section p {
+    /* margin-left: 5%; */
+    color: white;
+    margin-top: 0%;
+    padding-bottom: 20px;
+}
+
+.b1 {
+    padding: 10px;
+    background:#312A26;
+    color: white;
+}
+
+section {
+    padding: 0px 7.5%;
+}
+
+.items {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color:white;
+    font-family: "Oswald";
+}
+
+.items a {
+    color:white;
+    padding-top:30%;
+    text-decoration: underline;
+    
+}
+
+.box1 {
+    background-image: url(../images/ads-img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: 200px;
+    width:500px; */
+    height: 200px;
+    width:50%;
+    padding-left: 5%;
+    padding-top: 10%;
+    text-shadow: 1px 1px 10px black;
+    
+}
+
+.box2 {
+    background-image: url(../images/ads-img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: 200px;
+    width:500px; */
+    height: 200px;
+    width:50%;
+    padding-left: 5%;
+    padding-top: 10%;
+    margin-left: 2%;
+    text-shadow: 1px 1px 10px black;
+}
+
+.merchandise {
+    text-align: center;
+}
+
+.merchandise h3 {
+    font-family: "Oswald";
+    
+}
+
+.border{
+    border-bottom: 1px solid rgb(178 165 155);
+    width:35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.small {
+    color:rgb(182, 162, 154);
+    font-style: italic;
+}
+
+.grid {
+    display:grid;
+    gap:1%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 60px 1fr 60px;
+    margin-top: 6%;
+    margin-bottom: 50px;
+
+}
+
+.label {
+    text-align: left;
+    font-size:small;
+    font-family: "Oswald";
+}
+
+.big-bg2 {
+    text-align: center;
+    color:white;
+    font-family: "Oswald";
+    padding-top: 10%;
+    
+
+    height:30vh;
+    background-image: url(../images/discount-img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.small2 {
+    font-style: italic;
+    font-family: none;
+    font-size:x-small;
+}
+
+.b2 {
+    padding:7px;
+    background-color: rgba(138,134,140,0.5);
+    color:black;
+}
+
+.sale {
+    text-align: center;
+}
+
+h4 {
+    font-family: "Oswald";
+}
+
+.grid2 {
+    display: grid;
+    gap:1%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 60px ;
+    margin-top: 6%;
+    margin-bottom: 50px;
+}
+
+.grid3{
+    display: grid;
+    gap:20px;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+    margin-bottom: 50px;
+    color:white;
+    font-family: "Oswald";
+}
+
+.c1 {
+    color: white;
+    font-family: "Oswald";
+    text-decoration: underline;
+}
+
+.bg1 {
+    height:20vh;
+    /* width:100%;  */
+    background-image: url(../images/ads-img3.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 15%;
+    padding-left: 10%;
+}
+
+.bg2 {
+    height:20vh;
+    /* width:100%;  */
+    background-image: url(../images/ads-img4.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 15%;
+    padding-left: 10%;
+}
+
+.bg3 {
+    height:20vh;
+    /* width:100%;  */
+    background-image: url(../images/ads-img5.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 15%;
+    padding-left: 10%;
+}
+
+.bg4 {
+    height:20vh;
+    /* width:100%;  */
+    background-image: url(../images/ads-img6.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 15%;
+    padding-left: 10%;
+}
+
+.reservation {
+    text-align: left;
+}
+
+.reservation label {
+    font-size: small;
+    font-weight: bold;
+}
+
+.reservation h4 {
+    text-align: center;
+}
+
+.reservation h5 {
+    text-align: center;
+}
+
+.reservation h6 {
+    text-align: center;
+}
+
+.box3 {
+    height:auto;
+    width:45%;
+    padding: 2%;
+    background-color:rgb(242,242,242);
+}
+
+.box4 {
+    height:auto;
+    width:45%;
+    padding: 2%;
+    background-color:rgb(242,242,242);
+    
+}
+
+.form {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.choose {
+    text-align: center;
+}
+
+.box4 button {
+    
+    padding:2%;
+}
+
+.box4 h6 {
+    color:black;
+    font-weight: bold;
+}
+
+
+.bg5 {
+    background-image: url(../images/footer-img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px 7.5%;
+}
+
+ul {
+    margin: 3%;
+    padding: 0%;
+}
+
+ul>li {
+    display: inline-block;
+    width:24.5%;
+    height: 30%;
+    text-align: center;
+    text-align: left;
+    min-width: 200px;
+    vertical-align: top;
+    
+}
+
+footer h5 {
+    font-family: "Oswald";
+    color:white;
+    font-weight: bold;
+}
+
+footer h6 {
+    font-family: "Oswald";
+    color:white;
+    font-weight: bold;
+}
+
+
+footer p {
+    color:rgb(185,161,145);
+    font-size: xx-small;
+}
+
+.box5 p {
+    color:white;
+}
+
+.box7 input {
+    vertical-align: top;
+}
+
+.search {
+    width:80px; 
+    background-color: rgb(193,163,127);
+    padding: 5px;
+    margin-left: 1%;
+    font-family: "Oswald";
+    font-weight: bold;
+    display: inline-block;
+}
+
+.bottom {
+    background-color:rgb(24,16,15) ;
+    padding: 0px 20%;
+    
+}
+
+.bottom h5 {
+    display: inline-block;
+}
+
+.bottom div {
+    display: inline;
+    margin-left: 35%;
+    
+}
+
+div > img {
+    margin: 0.5%;
+    
+}
+
+.bottom p{
+    color: white;
+    float:right;
+    display: block;
+    margin-top: 1%;
+}
+
